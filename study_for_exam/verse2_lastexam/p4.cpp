@@ -1,5 +1,5 @@
-//floatŒ^‚ÆdoubleŒ^‚Ì•Ï”‚ðéŒ¾¨‰Šú‰»
-//‚»‚ê‚¼‚ê‚É0.01‚ð‚P–œ‰ñ‰Á‚¦‚ÄAŒë·‚ðŠm”FB
+//floatåž‹ã¨doubleåž‹ã®å¤‰æ•°ã‚’å®£è¨€â†’åˆæœŸåŒ–
+//ãã‚Œãžã‚Œã«0.01ã‚’ï¼‘ä¸‡å›žåŠ ãˆã¦ã€èª¤å·®ã‚’ç¢ºèªã€‚
 
 #include <stdio.h>
 #include <windows.h>
@@ -8,8 +8,7 @@ int main(void)
 	float num1 = 0;
 	double num2 = 0;
 	int i;
-	//«Å‘å’l‚Ìu<=v‚É’ˆÓ
-	//Å‘å’l‚ð’´‚¦‚é‚ÆƒI[ƒo[ƒtƒ[‚·‚é
+	
 	for (i = 1; i <= 10000; i++)
 	{
 		num1 = num1 + 0.01;
