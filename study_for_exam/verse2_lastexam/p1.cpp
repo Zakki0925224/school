@@ -1,15 +1,15 @@
-//p84@ß–––â‘è
-//ƒL[ƒ{[ƒh‚©‚ç®”‚ð“ü—Í‚µ‚½ŽžA‚»‚Ì”‚ª‚R‚Ì”{”‚©‚Ç‚¤‚©‚ðo—Í‚·‚éƒvƒƒOƒ‰ƒ€‚ð‚Â‚­‚è‚È‚³‚¢B‚½‚¾‚µA“™‰¿‰‰ŽZŽq‚ðŽg‚í‚¸‚ÉðŒ‚ð‹Lq‚µ‚È‚³‚¢B
+//p84ã€€ç¯€æœ«å•é¡Œ
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰æ•´æ•°ã‚’å…¥åŠ›ã—ãŸæ™‚ã€ãã®æ•°ãŒï¼“ã®å€æ•°ã‹ã©ã†ã‹ã‚’å‡ºåŠ›ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ã¤ãã‚Šãªã•ã„ã€‚ãŸã ã—ã€ç­‰ä¾¡æ¼”ç®—å­ã‚’ä½¿ã‚ãšã«æ¡ä»¶ã‚’è¨˜è¿°ã—ãªã•ã„ã€‚
 
 #include <stdio.h>
 #include <windows.h>
 int main(void)
 {
 	int num;
-	printf_s("®”‚ð“ü—Í...");
+	printf_s("æ•´æ•°ã‚’å…¥åŠ›...");
 	scanf_s("%d", &num);
-	if (num % 3)	printf_s("3‚Ì”{”‚Å‚·B\n");
-	else			printf_s("3‚Ì”{”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB\n");
+	if (num % 3)	printf_s("3ã®å€æ•°ã§ã™ã€‚\n");
+	else		printf_s("3ã®å€æ•°ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚\n");
 	
 	system("pause");
 	return 0;
