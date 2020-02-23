@@ -2,7 +2,6 @@
 //それぞれに0.01を１万回加えて、誤差を確認。
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	float num1 = 0;
@@ -15,7 +14,7 @@ int main(void)
 		num2 = num2 + 0.01;
 	}
 	printf_s("float ->%f\ndouble ->%lf\n", num1, num2);
-	system("pause");
+
 	return 0;
 
 }
