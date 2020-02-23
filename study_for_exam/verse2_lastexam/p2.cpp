@@ -3,7 +3,6 @@
 //100で割り切れればうるう年ではない
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	int year;
@@ -12,7 +11,7 @@ int main(void)
 	
 	if ((year % 4 == 0) || (year % 400 == 0) && (year % 100 != 0))	printf_s("うるう年です。\n");
 	else	printf_s("うるう年ではありません。\n");
-	system("pause");
+
 	return 0;
 
 }
