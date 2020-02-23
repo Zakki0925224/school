@@ -1,16 +1,15 @@
-//1-5�܂ł̐����ŉ񓚂���A���P�[�g�̏W�v
-//�f�[�^��20�A1-5�ȊO�̃f�[�^�̓G���[�Ƃ��Đ�����B
-//switch�����g��
+//1-5までの数字で回答するアンケートの集計
+//データは20個、1-5以外のデータはエラーとして数える。
+//switch文を使う
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	int ans, i, c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0, err = 0;
 	
 	for (i=0;i<20;i++)
 	{
-		printf_s("1-5�܂ł̐��������...");
+		printf_s("1-5までの数字を入力...");
 		scanf_s("%d", &ans);
 		switch (ans)
 		{
@@ -40,7 +39,7 @@ int main(void)
 		}
 	}
 	
-	printf_s("�W�v����\n1 -> %d\n2 -> %d\n3 -> %d\n4 -> %d\n5 -> %d\n�G���[���� -> %d\n", c1, c2, c3, c4, c5, err);
-	system("pause");
+	printf_s("集計結果\n1 -> %d\n2 -> %d\n3 -> %d\n4 -> %d\n5 -> %d\nエラー件数 -> %d\n", c1, c2, c3, c4, c5, err);
+
 	return 0;
 }
