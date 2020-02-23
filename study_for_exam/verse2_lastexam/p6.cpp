@@ -1,22 +1,21 @@
-//0‚Ü‚½‚Í•‰”‚ª“ü—Í‚³‚ê‚é‚Ü‚Å‚É“ü—Í‚µ‚½ŽÀ”ƒf[ƒ^‚Ì‚¤‚¿AÅ‘å’l‚ð•\Ž¦‚·‚é
+//0ã¾ãŸã¯è² æ•°ãŒå…¥åŠ›ã•ã‚Œã‚‹ã¾ã§ã«å…¥åŠ›ã—ãŸå®Ÿæ•°ãƒ‡ãƒ¼ã‚¿ã®ã†ã¡ã€æœ€å¤§å€¤ã‚’è¡¨ç¤ºã™ã‚‹
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	double num, max = 0;
 	while (1)
 	{
-		printf_s("’l‚ð“ü—Í...");
+		printf_s("å€¤ã‚’å…¥åŠ›...");
 		scanf_s("%lf", &num);
 		
-		//num‚ª³”‚¾‚Æ‚¢‚¤‚±‚Æ‚ðŠm”F -> Å‘å’l‚Ìˆ—
+		//numãŒæ­£æ•°ã ã¨ã„ã†ã“ã¨ã‚’ç¢ºèª -> æœ€å¤§å€¤ã®å‡¦ç†
 		if (num <= 0)
 			break;
 		if (max < num)
 			max = num;
 	}
-	printf_s("Å‘å’l‚Í%lf‚Å‚·B\n", max);
-	system("pause");
+	printf_s("æœ€å¤§å€¤ã¯%lfã§ã™ã€‚\n", max);
+
 	return 0;
 }
