@@ -1,25 +1,24 @@
-//n�̈قȂ鐔���̕��ו���P�ʂ肠��Ƃ���΁AP=1*2*...*n�ŋ��߂邱�Ƃ��ł���B
-//n����͂������A���ו������ʂ肠�邩�\������
-//n��0�ȉ� or 10�ȏ�̂Ƃ��͍ē��͂�����A�J��Ԃ��ɂ͖������[�v���g���B
+//n個の異なる数字の並べ方がP通りあるとすれば、P=1*2*...*nで求めることができる。
+//nを入力した時、並べ方が何通りあるか表示する
+//nが0以下 or 10以上のときは再入力させる、繰り返しには無限ループを使う。
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
-	//�ϐ�i,p�̏����l��1�ɂ���i�v�Z�o�O�h�~�j
+	//変数i,pの初期値を1にする（計算バグ防止）
 	int n, i, p=1;
 	while (1)
 	{
-		printf_s("���ln�����...");
+		printf_s("数値nを入力...");
 		scanf_s("%d", &n);
 		if (n > 0 && n < 10)	break;
 	}
 	
-	//�����l��0�̂Ƃ��́u<�v�u>�v
-	//�����l��1�̂Ƃ��́u<=�v�u>=�v
+	//初期値が0のときは「<」「>」
+	//初期値が1のときは「<=」「>=」
 	for (i = 1; i <= n; i++)	p *= i;
-	printf_s("���ו���%d�ʂ�ł��B\n", p);
+	printf_s("並べ方は%d通りです。\n", p);
 
-	system("pause");
+
 	return 0;
 }
