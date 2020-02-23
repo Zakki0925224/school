@@ -1,18 +1,17 @@
-//�L�[�{�[�h����0�ȏ�100�ȉ��̐����f�[�^��10���� -> 40�����̐��l�̌���\��
-//�f�[�^��0�ȏ�100�ȉ����Ƃ������f�͕K�v�Ȃ�
+//キーボードから0以上100以下の整数データを10個入力 -> 40未満の数値の個数を表示
+//データが0以上100以下だという判断は必要なし
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	int i, num, j=0;
 	for (i = 1; i <= 10; i++)
 	{
-		printf_s("���������...");
+		printf_s("整数を入力...");
 		scanf_s("%d", &num);
 		if (num < 40)	j++;
 	}
-	printf_s("40�����̐��l�̌���%d�ł��B\n", j);
-	system("pause");
+	printf_s("40未満の数値の個数は%d個です。\n", j);
+
 	return 0;
 }
