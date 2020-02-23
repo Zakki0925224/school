@@ -1,7 +1,6 @@
-//u*v‚ğg‚Á‚Ä10x19‚Ìƒsƒ‰ƒ~ƒbƒh‚ğì‚é
+//ã€Œ*ã€ã‚’ä½¿ã£ã¦10x19ã®ãƒ”ãƒ©ãƒŸãƒƒãƒ‰ã‚’ä½œã‚‹
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	int i, j, k;
@@ -13,6 +12,6 @@ int main(void)
 		putchar('\n');
 	}
 
-	system("pause");
+
 	return 0;
 }
