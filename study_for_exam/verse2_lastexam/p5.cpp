@@ -1,19 +1,18 @@
-//ƒL[ƒ{[ƒh‚©‚ç‚Q‚Â‚Ì®”a,b‚ğ“ü—Í‚µ‚½Aa€b‚ÌŒvZ‚ğs‚¢A¤‚Æ‚ ‚Ü‚è‚ğ•\¦‚·‚é
-//b‚ª0‚Ì‚Æ‚«u“ü—Íƒ~ƒX‚Å‚·Iv‚Æ•\¦‚µI—¹
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰ï¼’ã¤ã®æ•´æ•°a,bã‚’å…¥åŠ›ã—ãŸæ™‚ã€aÃ·bã®è¨ˆç®—ã‚’è¡Œã„ã€å•†ã¨ã‚ã¾ã‚Šã‚’è¡¨ç¤ºã™ã‚‹
+//bãŒ0ã®ã¨ãã€Œå…¥åŠ›ãƒŸã‚¹ã§ã™ï¼ã€ã¨è¡¨ç¤ºã—çµ‚äº†
 
 #include <stdio.h>
-#include <windows.h>
 int main(void)
 {
 	int a, b, ans1,ans2;
-	printf_s("®”a‚ğ“ü—Í...");
+	printf_s("æ•´æ•°aã‚’å…¥åŠ›...");
 	scanf_s("%d", &a);
-	printf_s("®”b‚ğ“ü—Í...");
+	printf_s("æ•´æ•°bã‚’å…¥åŠ›...");
 	scanf_s("%d", &b);
 
 	if (b == 0)
 	{
-		printf_s("“ü—Íƒ~ƒX‚Å‚·I\n");
+		printf_s("å…¥åŠ›ãƒŸã‚¹ã§ã™ï¼\n");
 		system("pause");
 		return 0;
 	}
@@ -21,8 +20,8 @@ int main(void)
 	{
 		ans1 = a / b;
 		ans2 = a % b;
-		printf_s("¤...%d\n‚ ‚Ü‚è...%d\n", ans1, ans2);
+		printf_s("å•†...%d\nã‚ã¾ã‚Š...%d\n", ans1, ans2);
 	}
-	system("pause");
+
 	return 0;
 }
