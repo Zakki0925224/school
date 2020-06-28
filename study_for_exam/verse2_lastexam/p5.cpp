@@ -1,29 +1,28 @@
-// 整数a, bを入力した時、a ÷ b の計算をし、商と余りを表示する
-// bが0の時は「入力ミスです！」と出力して終了
+// 0または負数が入力されるまでに入力した実数データのうち、最大値を出力する
 
 #include <stdio.h>
 
 int main(void)
 {
-    int a, b, result, resultSurplus;
+    double value, maxValue = 0;
 
-    printf("整数aを入力...>");
-    scanf("%d", & a);
-    printf("整数bを入力...>");
-    scanf("%d", & b);
-
-    if ( b == 0 )
+    while(1)
     {
-        printf("入力ミスです！\n");
-        return 0;
+        printf("値を入力...>");
+        scanf("%lf", & value);
+
+        if ( value <= 0 )
+        {
+            break;
+        }
+
+        if ( value > maxValue)
+        {
+            maxValue += value;
+        }
     }
 
-    result = a / b;
-    resultSurplus = a % b;
-
-    printf("商 -> %d\n", result);
-    printf("余り -> %d\n", resultSurplus);
+    printf("最大値は %lf です。\n", maxValue);
 
     return 0;
-
 }
