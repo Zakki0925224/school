@@ -1,27 +1,29 @@
-//キーボードから２つの整数a,bを入力した時、a÷bの計算を行い、商とあまりを表示する
-//bが0のとき「入力ミスです！」と表示し終了
+// 整数a, bを入力した時、a ÷ b の計算をし、商と余りを表示する
+// bが0の時は「入力ミスです！」と出力して終了
 
 #include <stdio.h>
+
 int main(void)
 {
-	int a, b, ans1,ans2;
-	printf_s("整数aを入力...");
-	scanf_s("%d", &a);
-	printf_s("整数bを入力...");
-	scanf_s("%d", &b);
+    int a, b, result, resultSurplus;
 
-	if (b == 0)
-	{
-		printf_s("入力ミスです！\n");
-		system("pause");
-		return 0;
-	}
-	else
-	{
-		ans1 = a / b;
-		ans2 = a % b;
-		printf_s("商...%d\nあまり...%d\n", ans1, ans2);
-	}
+    printf("整数aを入力...>");
+    scanf("%d", & a);
+    printf("整数bを入力...>");
+    scanf("%d", & b);
 
-	return 0;
+    if ( b == 0 )
+    {
+        printf("入力ミスです！\n");
+        return 0;
+    }
+
+    result = a / b;
+    resultSurplus = a % b;
+
+    printf("商 -> %d\n", result);
+    printf("余り -> %d\n", resultSurplus);
+
+    return 0;
+
 }
