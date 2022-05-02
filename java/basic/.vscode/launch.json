@@ -1,7 +1,16 @@
 {
     "version": "0.2.0",
-    "configurations": [{
-        "console": "integratedTerminal"
-    }],
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "basic_22f9e314"
+        },
+        {
+            "console": "integratedTerminal"
+        }
+    ],
     "compounds": [],
 }

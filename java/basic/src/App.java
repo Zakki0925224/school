@@ -1,7 +1,9 @@
 public class App {
     public static void main(String[] args) {
-        new Calc();
-        new Max();
-        new Random();
+        // new Calc();
+        // new Max();
+        // new Random();
+        //new InputStr();
+        new SampleIf();
     }
 }
