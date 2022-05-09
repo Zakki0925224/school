@@ -3,7 +3,9 @@ public class App {
         // new Calc();
         // new Max();
         // new Random();
-        //new InputStr();
-        new SampleIf();
+        // new InputStr();
+        // new SampleIf();
+        // new Fortune();
+        new Switch();
     }
 }
