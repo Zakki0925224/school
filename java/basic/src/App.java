@@ -6,6 +6,11 @@ public class App {
         // new InputStr();
         // new SampleIf();
         // new Fortune();
-        new Switch();
+        // new Switch();
+        // new While();
+        // new For();
+        // new Kuku();
+        // new Kuku2();
+        new AutoKuku();
     }
 }
