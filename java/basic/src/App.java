@@ -11,6 +11,8 @@ public class App {
         // new For();
         // new Kuku();
         // new Kuku2();
-        new AutoKuku();
+        // new AutoKuku();
+        // new ArraySample();
+        new ArrayForIn();
     }
 }
