@@ -14,8 +14,8 @@ public class App {
         // new AutoKuku();
         // new ArraySample();
         // new ArrayForIn();
-        // new SampleNull();
-        // new CallMethod();
-        new CallMethod2();
+        // new Trump();
+        //new StringAPI();
+        new StringAppendCheck();
     }
 }
