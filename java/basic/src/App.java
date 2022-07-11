@@ -15,7 +15,8 @@ public class App {
         // new ArraySample();
         // new ArrayForIn();
         // new Trump();
-        //new StringAPI();
-        new StringAppendCheck();
+        // new StringAPI();
+        // new StringAppendCheck();
+        new DateSample();
     }
 }
