@@ -1,3 +1,6 @@
+import jp.ac.chuo.ChuoMain;
+import sample.*;
+
 public class App {
     public static void main(String[] args) {
         // new Calc();
@@ -17,6 +20,8 @@ public class App {
         // new Trump();
         // new StringAPI();
         // new StringAppendCheck();
-        new DateSample();
+        // new DateSample();
+
+        new ChuoMain();
     }
 }

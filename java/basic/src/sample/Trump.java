@@ -1,3 +1,4 @@
+package sample;
 import java.util.*;
 import java.util.stream.Collectors;
 

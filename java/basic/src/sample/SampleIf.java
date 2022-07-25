@@ -1,3 +1,4 @@
+package sample;
 public class SampleIf {
     public SampleIf() {
         var a = 1;

@@ -1,3 +1,4 @@
+package sample;
 public class Kuku2 {
     public Kuku2() {
         var nums = new java.util.Scanner(System.in).nextLine().split(",");

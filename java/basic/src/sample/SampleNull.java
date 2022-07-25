@@ -1,3 +1,4 @@
+package sample;
 public class SampleNull {
     public SampleNull() {
         var str1 = "";

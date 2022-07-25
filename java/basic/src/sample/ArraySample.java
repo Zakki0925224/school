@@ -1,3 +1,4 @@
+package sample;
 public class ArraySample {
     public ArraySample() {
         // int arr[]; <- 非推奨

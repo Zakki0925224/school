@@ -1,3 +1,4 @@
+package sample;
 public class InputStr {
     public InputStr()
     {

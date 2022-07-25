@@ -1,3 +1,4 @@
+package sample;
 public class Fortune
 {
     public Fortune()

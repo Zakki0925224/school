@@ -1,3 +1,4 @@
+package sample;
 public class Kuku {
     public Kuku() {
         // 1~9までの数字で掛け算九九を表示

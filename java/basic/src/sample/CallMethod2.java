@@ -1,3 +1,4 @@
+package sample;
 import java.lang.reflect.Method;
 
 public class CallMethod2 {

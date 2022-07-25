@@ -1,3 +1,4 @@
+package sample;
 public class ArrayForIn {
     public ArrayForIn() {
         String[] arr = {

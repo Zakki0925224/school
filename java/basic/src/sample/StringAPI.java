@@ -1,3 +1,4 @@
+package sample;
 public class StringAPI
 {
     public StringAPI()

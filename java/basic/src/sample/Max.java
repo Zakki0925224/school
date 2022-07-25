@@ -1,3 +1,4 @@
+package sample;
 public class Max {
 
     public Max() {

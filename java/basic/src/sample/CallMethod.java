@@ -1,3 +1,4 @@
+package sample;
 public class CallMethod {
     public CallMethod() {
         System.out.println("hello()を呼び出す");
