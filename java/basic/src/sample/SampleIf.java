@@ -1,47 +1,42 @@
 package sample;
+
 public class SampleIf {
     public SampleIf() {
         var a = 1;
 
         if (a == 1) {
             System.out.println("a is 1");
-        }
-        else {
+        } else {
             System.out.println("a is not 1");
         }
 
         if (a != 1) {
             System.out.println("a is not 1");
-        }
-        else {
+        } else {
             System.out.println("a is 1");
         }
 
         if (a > 0) {
             System.out.println("a is bigger than 0");
-        }
-        else {
+        } else {
             System.out.println("a is not bigger than 0");
         }
 
         if (a < 0) {
             System.out.println("a is smaller than 0");
-        }
-        else {
+        } else {
             System.out.println("a is not smaller than 0");
         }
 
         if (a >= 0) {
             System.out.println("a is bigger or equal than 0");
-        }
-        else {
+        } else {
             System.out.println("a is not bigger or equal than 0");
         }
 
         if (a <= 0) {
             System.out.println("a is smaller or equal than 0");
-        }
-        else {
+        } else {
             System.out.println("a is not smaller or equal than 0");
         }
 
@@ -49,8 +44,7 @@ public class SampleIf {
 
         if (str.equals("sunset")) {
             System.out.println("str is sunset");
-        }
-        else {
+        } else {
             System.out.println("str is not sunset");
         }
 
@@ -92,19 +86,16 @@ public class SampleIf {
         // if-else
         if (age == 10) {
             System.out.println("Your age is 10");
-        }
-        else {
+        } else {
             System.out.println("Your age is not 10");
         }
 
-        //else if
+        // else if
         if (age == 10) {
             System.out.println("Your age is 10");
-        }
-        else if (age == 15) {
+        } else if (age == 15) {
             System.out.println("Your age is 15");
-        }
-        else {
+        } else {
             System.out.println("Your age is not 10 or 15");
         }
 

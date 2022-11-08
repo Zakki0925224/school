@@ -1,14 +1,12 @@
 package sample;
-public class Switch
-{
-    public Switch()
-    {
+
+public class Switch {
+    public Switch() {
         var s = new java.util.Scanner(System.in);
         System.out.print("Enter your age: ");
         var age = Integer.parseInt(s.nextLine());
 
-        switch(age)
-        {
+        switch (age) {
             case 0:
                 System.out.println("You are...0 years old");
                 break;

@@ -25,6 +25,70 @@ summary(d)
 # 3rd Qu.: 9.225
 # Max.   :34.400
 
+# 1標本t検定を使って、全支店の平均との差を調べる
+# 全支店の平均 = (11.61 + 13.25 + 8.73 + 8.505 + 7.02) / 5 = 9.823
+
+t.test(d$支店１, mu = 9.823)
+#         One Sample t-test
+#
+# data:  d$支店１
+# t = 0.47943, df = 19, p-value = 0.6371
+# alternative hypothesis: true mean is not equal to 9.823
+# 95 percent confidence interval:
+#   3.808607 19.411393
+# sample estimates:
+# mean of x
+#     11.61
+
+t.test(d$支店２, mu = 9.823)
+#         One Sample t-test
+
+# data:  d$支店２
+# t = 0.78612, df = 19, p-value = 0.4415
+# alternative hypothesis: true mean is not equal to 9.823
+# 95 percent confidence interval:
+#   4.125665 22.374335
+# sample estimates:
+# mean of x
+#     13.25
+
+t.test(d$支店３, mu = 9.823)
+#         One Sample t-test
+#
+# data:  d$支店３
+# t = -0.91088, df = 19, p-value = 0.3738
+# alternative hypothesis: true mean is not equal to 9.823
+# 95 percent confidence interval:
+#   6.218504 11.241496
+# sample estimates:
+# mean of x
+#      8.73
+
+t.test(d$支店４, mu = 9.823)
+        One Sample t-test
+
+data:  d$支店４
+# t = -1.0693, df = 19, p-value = 0.2983
+# alternative hypothesis: true mean is not equal to 9.823
+# 95 percent confidence interval:
+#   5.925285 11.084715
+# sample estimates:
+# mean of x
+#     8.505
+
+t.test(d$支店５, mu = 9.823)
+#         One Sample t-test
+#
+# data:  d$支店５
+# t = -1.5797, df = 19, p-value = 0.1307
+# alternative hypothesis: true mean is not equal to 9.823
+# 95 percent confidence interval:
+#   3.30607 10.73393
+# sample estimates:
+# mean of x
+#      7.02
+
+
 # 2標本t検定対応なしを使って、それぞれの関係を見る
 t.test(d$支店１, d$支店２, var.equal = FALSE)
 #         Welch Two Sample t-test

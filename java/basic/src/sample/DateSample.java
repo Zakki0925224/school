@@ -1,12 +1,11 @@
 package sample;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class DateSample
-{
-    public DateSample()
-    {
+public class DateSample {
+    public DateSample() {
         var dt = new Date();
         System.out.println(dt.getTime());
 

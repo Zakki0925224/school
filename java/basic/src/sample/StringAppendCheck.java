@@ -1,18 +1,16 @@
 package sample;
-public class StringAppendCheck
-{
-    public StringAppendCheck()
-    {
+
+public class StringAppendCheck {
+    public StringAppendCheck() {
         // +演算子とstring builderの性能差
-        var sb  = new StringBuilder();
+        var sb = new StringBuilder();
 
         var test = "";
         var cnt = 0;
 
         System.out.println("開始");
         var startTime = System.currentTimeMillis();
-        for (var i = 0; i < 500000; i++)
-        {
+        for (var i = 0; i < 500000; i++) {
             test += i;
             cnt += 1;
             System.out.println(cnt);
@@ -25,8 +23,7 @@ public class StringAppendCheck
 
         System.out.println("開始");
         var startTime2 = System.currentTimeMillis();
-        for (var i = 0; i < 500000; i++)
-        {
+        for (var i = 0; i < 500000; i++) {
             sb.append(i);
         }
         test2 = sb.toString();

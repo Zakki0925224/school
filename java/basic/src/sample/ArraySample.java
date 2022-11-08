@@ -1,4 +1,5 @@
 package sample;
+
 public class ArraySample {
     public ArraySample() {
         // int arr[]; <- 非推奨
@@ -23,13 +24,13 @@ public class ArraySample {
         // arr2[2] = 3;
         // arr2[3] = 4;
         // arr2[4] = 5;
-        var arr2 = new int[] {1, 2, 3, 4, 5};
+        var arr2 = new int[] { 1, 2, 3, 4, 5 };
 
         var arr3 = new int[] {
-            10, // 国語
-            40, // 社会
-            20, // 数学
-            30 // 英語
+                10, // 国語
+                40, // 社会
+                20, // 数学
+                30 // 英語
         };
 
         // var sum = arr3[0] + arr3[1] + arr3[2];
@@ -43,7 +44,7 @@ public class ArraySample {
         System.out.println("合計は" + sum + "です。");
 
         // 課題：以下の配列の偶数のみ足し算するfor
-        int [] numArr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] numArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         var sum2 = 0;
 
         for (var i : numArr) {

@@ -1,4 +1,5 @@
 package sample;
+
 public class Kuku {
     public Kuku() {
         // 1~9までの数字で掛け算九九を表示
@@ -15,7 +16,8 @@ public class Kuku {
                 continue;
             }
 
-            if (num >= 1 && num <= 9) break;
+            if (num >= 1 && num <= 9)
+                break;
             System.out.println("1~9以外の数字が入力されました。");
         }
 

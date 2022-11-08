@@ -1,13 +1,11 @@
 package sample;
-public class StringAPI
-{
-    public StringAPI()
-    {
+
+public class StringAPI {
+    public StringAPI() {
         // 一部に文字列を含んでいるかチェック
         var sample = "Central Information Univercity";
 
-        if (sample.contains("Central"))
-        {
+        if (sample.contains("Central")) {
             System.out.println("Centralを含んだ文字です");
         }
 
@@ -16,20 +14,13 @@ public class StringAPI
         System.out.print("学籍番号を入力: ");
         var s = sc.nextLine();
 
-        if (s.startsWith("f22"))
-        {
+        if (s.startsWith("f22")) {
             System.out.println("1年生");
-        }
-        else if (s.startsWith("f21"))
-        {
+        } else if (s.startsWith("f21")) {
             System.out.println("2年生");
-        }
-        else if (s.startsWith("f20"))
-        {
+        } else if (s.startsWith("f20")) {
             System.out.println("3年生");
-        }
-        else if (s.startsWith("f19"))
-        {
+        } else if (s.startsWith("f19")) {
             System.out.println("4年生");
         }
 
@@ -38,8 +29,7 @@ public class StringAPI
         sc.close();
 
         // 対象の文字列で終わっているかチェック
-        if (s2.endsWith("川崎市"))
-        {
+        if (s2.endsWith("川崎市")) {
             System.out.println("あなたは川崎市出身ですね");
         }
 

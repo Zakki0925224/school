@@ -1,4 +1,5 @@
 package sample;
+
 public class AutoKuku {
     public AutoKuku() {
         for (var i = 0; i < 10; i++) {

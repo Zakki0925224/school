@@ -1,7 +1,6 @@
 package jp.ac.chuo;
 
-public class Hero implements ICharacter
-{
+public class Hero implements ICharacter {
     private int hp;
     private int mp;
     private int atk;
@@ -9,8 +8,7 @@ public class Hero implements ICharacter
     private int level;
     private String name;
 
-    public Hero(int hp, int mp, int atk, int def, int level, String name)
-    {
+    public Hero(int hp, int mp, int atk, int def, int level, String name) {
         this.hp = hp;
         this.mp = mp;
         this.atk = atk;
@@ -19,10 +17,10 @@ public class Hero implements ICharacter
         this.name = name;
     }
 
-    public Hero() {}
+    public Hero() {
+    }
 
-    public void showStatus()
-    {
+    public void showStatus() {
         System.out.println("Name: " + this.name);
         System.out.println("Lv.: " + this.level);
         System.out.println("HP: " + this.hp);
@@ -31,24 +29,20 @@ public class Hero implements ICharacter
         System.out.println("DEF: " + this.def);
     }
 
-    public void receiveDamage(int point)
-    {
+    public void receiveDamage(int point) {
         this.hp -= point;
         System.out.println(this.name + "は" + point + "ダメージを受けた");
     }
 
-    public int getHp()
-    {
+    public int getHp() {
         return this.hp;
     }
 
-    public void setHp(int hp)
-    {
+    public void setHp(int hp) {
         this.hp = hp;
     }
 
-    public void setHp(String hp)
-    {
+    public void setHp(String hp) {
         this.hp = Integer.parseInt(hp);
     }
 }

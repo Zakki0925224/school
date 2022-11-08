@@ -1,10 +1,11 @@
 package sample;
+
 public class ArrayForIn {
     public ArrayForIn() {
         String[] arr = {
-            "おはよう",
-            "こんにちは",
-            "こんばんは"
+                "おはよう",
+                "こんにちは",
+                "こんばんは"
         };
 
         // 要素数指定で中身を確認

@@ -1,4 +1,5 @@
 package sample;
+
 public class While {
     public While() {
         // while
